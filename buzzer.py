@@ -1,18 +1,11 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-# http://elecrow.com/
-
 from gpiozero import Buzzer
 import time
-
+#Si ponemos el 17 no debe de funcionar.
 buzzer = Buzzer(18)
 
 
-
-# Make buzzer sound
+#Make buzzer sound
 buzzer.on()
 time.sleep(0.5)
-# Stop buzzer sound
+#Parar el sonido del buzzer
 buzzer.off()
-
-
